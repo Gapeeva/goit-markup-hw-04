@@ -40,7 +40,7 @@ img {
 }
 
 .header {
-    Height: 72px;
+    height: 72px;
     align-items: center;
     justify-content: space-between;
     background-color: var(--b-active-color);
@@ -349,11 +349,6 @@ span {
     margin-right: 24px;
  }
 
-.portfolio-button:hover
-.portfolio-button:focus {
-    color: var(--b-active-color);
-    background-color: var(--active-color);
-}
 .cards-list{
     display: flex;
     flex-wrap: wrap;
