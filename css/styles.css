@@ -336,6 +336,10 @@ span {
 .test-title {
    text-align: center;
    margin-bottom: 72px;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.1;
+   letter-spacing: 0.02em;
 }
 
 .test-list {
@@ -469,7 +473,7 @@ span {
 
  .button-list .button-link:not(:last-child) {
     margin-right: 24px;
- }
+}
 
 .cards-list{
     flex-wrap: wrap;
@@ -486,6 +490,7 @@ span {
 
 .card-foto {
     text-decoration: none;
+    color: var(--main-color);
 }
 
 .card-border {
